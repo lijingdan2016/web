@@ -14,3 +14,12 @@ strong{
 	width:498px;
     background-color:blue;
 }
+
+}
+img{
+	margin-top:10px;
+}
+
+#i1,#i2,#i3,#i4,#i5,#i6{
+	float:left;
+}
