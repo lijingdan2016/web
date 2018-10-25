@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			body{
+				width :1000px;
+				height:1000px;
+				background:url(img/images/bg3.JPG);
+				background-repeat: no-repeat;
+			}
+			img{
+				width:110px;
+				height:90px;
+			}
+			.mm{
+				width:90px;
+				height:90px;
+			}
+			div{
+				background:white;
+				float:left;
+				margin-left:30px;
+				margin-top:20px;
+				padding:10px;
+			}
+			p{
+				text-align: center;
+			}
+			div:link{
+				transform:scale(0.1,0.1);
+			}
+			div:nth-child(2n+1):hover{
+				transform:translate(-20px,-20px) rotate(10deg) scale(1.5,1.5)
+			}
+			div:nth-child(2n):hover{
+				transform:translate(-20px,-20px) rotate(-10deg) scale(1.5,1.5)
+			}
+		</style>
+		
+	</head>
+	<body>
+			<div class="image1">
+				<img src="img/images/11.jpg"/>
+				<p>相识</p>
+				
+			</div>
+			<div class="image2">
+				<img class="mm" src="img/images/22.jpg"/>
+				<p>凝视</p>
+			</div>
+			<div class="image3">
+				<img src="img/images/33.jpg"/>
+				<p>甜睡</p>
+			</div>
+			<div class="image4">
+				<img class="mm" src="img/images/44.jpg"/>
+				<p>逗乐</p>
+			</div>
+			<div class="image5">
+				<img src="img/images/55.jpg"/>
+				<p>奔跑</p>
+			</div>
+			<div class="image6">
+				<img src="img/images/66.jpg"/>
+				<p>漠视</p>
+			</div>
+	</body>
+</html>
