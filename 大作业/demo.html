@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>导航条</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <style>
+  	ul li{
+  		list-style: none;
+  	}
+  </style>
+  <body>
+  	
+  <div class="container">
+    <p></p>
+		<nav class="navbar navbar-inverse" > 
+			<div class="container-fluid">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-1">
+			      <span class="sr-only">导航开关</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+
+			    <a class="navbar-brand" style="margin-top:-10px" href="#"><img src="images/logo.png"/></a>
+
+			    
+			  </div>
+			  <div class="collapse navbar-collapse" id="bs-1">
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="#">Link</a></li>
+			      <li><a href="#">Link1</a></li>
+			      <li><a href="#">Link2</a></li>
+			      <li><a href="#">Link3</a></li>
+			      <li><a href="#">Link4</a></li>    
+			    </ul>   
+			    <div style="float:right;margin-top:10px;">
+            		<input type="search" name="baike-search" placeholder="Search" style="height:33px;border-radius:8px;">
+						  	<button type="button" class="btn btn-warning">Submit</button>
+					      <button type="button" class="btn btn-danger">Action&nbsp;<span class="caret"></span></button>
+			    </div>
+			  </div>
+			</nav> 
+
+
+		<div id="generic" class="carousel slide" data-ride="carousel" style="margin-top:-20px">
+	  	<!-- 轮播（Carousel）指示标 -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#generic" data-slide-to="0" class="active"></li>
+	      <li data-target="#generic" data-slide-to="1"></li>
+	      <li data-target="#generic" data-slide-to="2"></li>
+	    </ol>
+	     <!-- 轮播（Carousel）项目 -->
+	    <div class="carousel-inner" >
+	      <div class="item active">
+	        <img alt="First slide" src="images/banner.jpg" >
+			    
+	      </div>
+	      <div class="item">
+	        <img alt="Second slide" src="images/banner.jpg" >
+	        
+	      </div>
+	      <div class="item">
+	        <img alt="Third slide" src="images/banner.jpg"  >
+			  	
+	      </div>
+	    </div>
+	    <!-- 轮播（Carousel）导航 -->
+	    <a class="left carousel-control" href="#generic" data-slide="prev">
+	      <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+	    </a>
+	    <a class="right carousel-control" href="#generic" data-slide="next">
+	      <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+	    </a>
+	  </div>
+	  
+	  
+	   <div>
+		    <ol class="breadcrumb"> 
+		     <li><a href="#">Home</a></li> 
+		     <li><a href="#">Library</a></li> 
+		     <li class="active">Data</li> 
+		    </ol>  
+		 </div> 
+	  
+	  
+	  
+	  
+	  
+	  <div style="float:left;width:350px;" >
+	  	  <h2>Content area1<small>The first</small></h2>
+		    <p></p>
+				 
+				<div id="#home">
+		     <p>Bootstrap has a few easy ways to quickly get started.each one
+		     appealing to a different skill level and use case.Read through to see
+		     what suits your particular needs</p>
+		    </div>
+		    
+		</div>
+		
+		 
+		<div style="float:left;width:350px;margin-left:30px;" >
+			 <h2>Content area2<small>The second</small></h2>
+		    <p></p>
+				 
+				<div id="#home">
+		     <p>Bootstrap has a few easy ways to quickly get started.each one
+		     appealing to a different skill level and use case.Read through to see
+		     what suits your particular needs</p>
+		    </div>
+		    
+		</div>
+		
+		<div style="float:left;width:350px;margin-left:30px;" >
+			 <h2>Content area3<small>The third</small></h2>
+		    <p></p>
+				
+				<div id="#home">
+		     <p>Bootstrap has a few easy ways to quickly get started.each one
+		     appealing to a different skill level and use case.Read through to see
+		     what suits your particular needs</p>
+		    </div>
+		    
+		</div>
+		<div>
+			<h2>Report Table<small>From Detail</small></h2>
+		    <p></p>
+		    <table class="table table-striped table-hover table-condensed">
+		    <tbody>
+				<thead>
+					<tr class="active">
+						<th>#</th>
+						<th>first</th>
+						<th>second</th>
+						<th>third</th>
+						<th>forth</th>
+						<th>fifth</th>
+					</tr>
+				</thead>
+			
+				<tr>
+					<td>1</td>
+					<td>penapinus et magnis</td>
+					<td>what</td>
+					<td>messages</td>
+					<td>56</td>
+					<td><button type="button" class="btn btn-success">提交</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>penatibus et</td>
+					<td>you</td>
+					<td>information</td>
+					<td>44</td>
+					<td><button type="button" class="btn btn-success">提交</button></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>nulla non</td>
+					<td>test</td>
+					<td>testing</td>
+					<td>32</td>
+					<td><button type="button" class="btn btn-success">提交</button></td>
+				</tr>
+			</tbody>
+			</table>
+		</div> 
+		
+		
+		
+		
+		<div class="row">
+		    <div class="col-sm-6">
+			    <a href="#" class="thumbnail">
+		        <img src="images/pic.jpg" alt="...">
+		      </a>
+		    </div>
+		    <div class="col-sm-6">
+		      
+		        <div class="media">
+		        	  <h3>Cum sociis natoque penatibus et magnis dis parturient montes</h3>
+		        	  <p>nascetur ridiculus mus.Nullam id color id nibh ultricles vehicula. Cum sociis natoque penatibus et margins dis parturient montes.nascetur ridiculus muss.</p>
+								<div class="media-body">
+									<ul>
+							      <li>Maecenas sed diam eget risus</li>
+							      <li>Maecenas sed diam eget risus</li>
+							      <li>Maecenas sed diam eget risus</li>
+							      <li>Maecenas sed diam eget risus</li>
+							      <li>Maecenas sed diam eget risus</li>
+							    </ul>
+								</div> 
+								<div class="media-right">
+								  <img class="media-object " src="images/1.jpg" height="70" width="110" alt="...">
+								</div>
+		        </div>
+		      
+		    </div>
+		  </div>
+		  
+		  <div>
+			  <div class="left" style="width:750px; float:left">
+			  	<h4>Images Show&nbsp;&nbsp;<small>Images</small></h2>
+			  	<div class="row">
+				  	<div class="col-sm-4"><img style="border-radius: 9px;" class="media-object " src="images/2.jpg" height="70" width="110" alt="..."></div>
+				  	<div class="col-sm-4"><img style="border-radius: 9px;" class="media-object " src="images/3.jpg" height="70" width="110" alt="..."></div>
+				  	<div class="col-sm-4"><img style="border-radius: 9px;" class="media-object " src="images/4.jpg" height="70" width="110" alt="..."></div>
+			  	</div>
+			  
+			  	</br>
+			  	</br>
+			  	<p>nascetur ridiculus mus.Nullam id dolor id nibh ultrcls vehicula, Cum soiis natoque penatibus et magins dis</P>
+			  	<p> parturient montes. nasceter ridiculus mus</p>
+			  </div>
+			  <div class="right" style="width:390px; float:left">
+			  	<h4>User Login&nbsp;&nbsp;<small>Form</small></h2>
+			  	<form class="form-horizontal" >
+						  <div class="form-group">
+						    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+						    <div class="col-sm-10">
+						      <input type="email" class="form-control col-sm-10" id="inputEmail3" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+						    <div class="col-sm-10">
+						      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+						    </div>
+						  </div>
+						  <div class="form-group" style="margin-left: -100px;">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <div class="checkbox">
+						        <label>
+						          <input type="checkbox">blue
+						        </label>
+						        <label>
+						          <input type="checkbox">red
+						        </label>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="form-group" style="margin-left: -100px;">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <button type="submit" class="btn  btn-info">Sign in</button>
+						    </div>
+						  </div>
+		      </form>
+			  </div>
+		  </div>
+		 
+		 
+		  
+		</div>
+		
+		
+		
+		
+		
+		
+		  <footer class=”yanshi” style=" color:white;height:50px;width:1200px;margin:auto; background-color:black"> 
+			　　网站地图<br /> 
+			　　copyright@<span style="color:blue">www.xxx.com</span>
+			<div style="color:blue; float:right;margin-top:-15px;">
+				返回顶部
+			</div>
+			</footer> 
+		
+	</div> 
+		 
+		
+		 
+		 
+		 
+		 
+		 
+
+		
+		
+		
+		
+		
+		
+  
+  
+   
+	  
+	  
+	  
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script src="js/jquery.js"></script>    
+    <script src="js/bootstrap.min.js"></script>   
+  </body>
+</html>
